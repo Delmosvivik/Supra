@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+}
+.wrapper {
+    min-height: 100%;
+}
+img {
+    max-width: 100%;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.hero{
+    background: url(/img/content/supra\ bg2.jpg) no-repeat center/cover;
+    height: 100vh;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul>li {
+list-style: none;
+}
+.hero__content {
+    max-width: 49%;
+    padding-top: 186px;
+
+}
+.hero__info {
+    color: #FFFFFF;
+}
+.hero__headline {
+font-weight: 500;
+font-size: 20px;
+line-height: 16px;
+letter-spacing: 0.1em;
+margin-bottom: 15px;
+}
+.title {
+font-style: normal;
+font-weight: 500;
+font-size: 65px;
+line-height: 1.18;
+}
+.hero__title {
+    margin-bottom: 30px;
+}
+.hero__desc {
+ font-weight: 400;
+font-size: 26px;
+line-height: 1.17;
+margin-bottom: 42px;
+}
+.car {
+    padding: 115px 0px 102px;
+    background-color: black;
+    }
+    .car__list {
+        display: flex;
+        justify-content: space-between;
+    }
+    .car__item {
+        width: 23%;
+        background-color: rgba(49, 47, 48, 1);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .supra__img-wrap {
+        overflow: hidden;
+        width: 100%;
+        height: 172px;
+    }
+    .supra__img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .supra__desc {
+        padding: 30px;
+        text-align: center;
+    }
+    .supra__title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 23px;
+    margin-bottom: 13px;
+    
+    }
+    .supra__text {
+       
+    }
+    .paragraph {
+     font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.7);
+    }
